@@ -42,6 +42,8 @@ const media = {
   weave: "/manus-storage/onyx-kinetic-weave-detail_d5009e99.jpg",
   mark: "/manus-storage/onyx-kinetic-mark_90671358.png",
   kitPair: "/manus-storage/download_c0184161.webp",
+  sizeGuide: "/manus-storage/Guiadetamanho_06d276bb.jfif",
+  kitContents: "/manus-storage/o_que_voce_recebe_0262ab15.jfif",
 };
 
 const socialEvidence = [
@@ -321,14 +323,14 @@ export default function Home() {
         </section>
 
         <section id="recebe" className="receive-section section-pad">
-          <div className="container receive-layout"><div className="receive-visual receive-visual--kit"><img src={media.kitPair} alt="Par de joelheiras de compressão verde e preto" loading="lazy" /><div className="pair-label"><b>02</b><span>UNIDADES<br />NO KIT</span></div></div><div className="section-copy"><SectionEyebrow>O QUE VOCÊ RECEBE</SectionEyebrow><h2>UM PAR COMPLETO <em>PARA VOCÊ.</em></h2><p>Você recebe 2 joelheiras de compressão para utilizar nos dois joelhos.</p><ul className="receive-list">{["2 Joelheiras", "Alta elasticidade", "Compressão", "Tamanho único", "Verde com preto", "Uso esportivo", "Uso no dia a dia"].map((item) => <li key={item}><Check size={17} />{item}</li>)}</ul></div></div>
+          <div className="container receive-layout"><div className="receive-visual receive-visual--kit"><div className="receive-photo-stack"><img src={media.kitContents} alt="Kit com duas joelheiras de compressão, aplicação e embalagem" loading="lazy" /><PurchaseCTA label="QUERO MEU KIT AGORA" location="what_you_receive" className="receive-photo-cta" /></div><div className="pair-label"><b>02</b><span>UNIDADES<br />NO KIT</span></div></div><div className="section-copy"><SectionEyebrow>O QUE VOCÊ RECEBE</SectionEyebrow><h2>UM PAR COMPLETO <em>PARA VOCÊ.</em></h2><p>Você recebe 2 joelheiras de compressão para utilizar nos dois joelhos.</p><ul className="receive-list">{["2 Joelheiras", "Alta elasticidade", "Compressão", "Tamanho único", "Verde com preto", "Uso esportivo", "Uso no dia a dia"].map((item) => <li key={item}><Check size={17} />{item}</li>)}</ul></div></div>
         </section>
 
         <section className="value-section"><div className="container value-layout"><div><SectionEyebrow>UM KIT, DOIS LADOS</SectionEyebrow><h2>MAIS SUPORTE.<br />MAIS PRATICIDADE.<br /><em>UM KIT COMPLETO.</em></h2></div><div className="value-answer"><b>2</b><div><span>JOELHEIRAS</span><p>Um único kit para utilizar nos dois joelhos.</p></div></div></div></section>
 
         <section id="detalhes" className="specs-section section-pad"><div className="container"><div className="section-heading"><SectionEyebrow>INFORMAÇÃO DIRETA</SectionEyebrow><h2>DETALHES DO <em>PRODUTO.</em></h2></div><div className="spec-grid">{[["ALTURA", "27 cm"], ["LARGURA", "17 cm"], ["CIRCUNFERÊNCIA RECOMENDADA", "45 a 55 cm"], ["PESO RECOMENDADO", "60 a 85 kg"], ["TAMANHO", "Único"], ["COR", "Verde com Preto"], ["CONTEÚDO", "2 Joelheiras"]].map(([label, value], index) => <div className="spec-item" key={label}><span>0{index + 1}</span><p>{label}</p><strong>{value}</strong></div>)}</div></div></section>
 
-        <section className="size-section section-pad"><div className="container size-layout"><div className="size-graphic" aria-hidden="true"><div className="leg-shape"><div className="measure-ring"><span>45–55 cm</span></div></div><div className="measure-line" /><Ruler size={25} /></div><div className="section-copy"><SectionEyebrow>GUIA DE TAMANHO</SectionEyebrow><h2>CONFIRA AS MEDIDAS <em>ANTES DE COMPRAR.</em></h2><p>Produto em tamanho único. Confira as medidas indicadas antes da compra.</p><div className="size-number"><span>CIRCUNFERÊNCIA RECOMENDADA</span><b>45–55 <small>cm</small></b></div></div></div></section>
+        <section className="size-section section-pad"><div className="container size-layout"><div className="size-graphic size-graphic--guide"><img src={media.sizeGuide} alt="Medição da circunferência da perna acima do joelho com fita métrica, indicada entre 45 e 55 cm" loading="lazy" /><span className="size-photo-label">MEDIDA INDICADA</span></div><div className="section-copy"><SectionEyebrow>GUIA DE TAMANHO</SectionEyebrow><h2>CONFIRA AS MEDIDAS <em>ANTES DE COMPRAR.</em></h2><p>Produto em tamanho único. Confira as medidas indicadas antes da compra.</p><div className="size-number"><span>CIRCUNFERÊNCIA RECOMENDADA</span><b>45–55 <small>cm</small></b></div></div></div></section>
 
         <section className="mid-cta-section"><div className="container"><p>PRONTO PARA CONTINUAR SE MOVIMENTANDO?</p><PurchaseCTA label="QUERO MEU KIT" location="intermediate_cta" /></div></section>
 
