@@ -1,0 +1,2 @@
+- [x] Remover a identificação UGC e a numeração exibidas sobre os três vídeos de conteúdo real.
+- [x] Substituir o visual da seção “O que você recebe” pela nova foto do par de joelheiras enviada.

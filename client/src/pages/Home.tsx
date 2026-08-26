@@ -41,6 +41,7 @@ const media = {
   motionSurface: "/manus-storage/onyx-kinetic-motion-surface_360571bd.jpg",
   weave: "/manus-storage/onyx-kinetic-weave-detail_d5009e99.jpg",
   mark: "/manus-storage/onyx-kinetic-mark_90671358.png",
+  kitPair: "/manus-storage/download_c0184161.webp",
 };
 
 const socialEvidence = [
@@ -291,7 +292,7 @@ export default function Home() {
         <section className="ugc-section section-pad">
           <div className="container"><div className="section-heading centered-heading"><SectionEyebrow>CONTEÚDO REAL</SectionEyebrow><h2>VEJA COMO ELA FAZ <em>PARTE DA ROTINA.</em></h2></div>
             <div className="ugc-grid">
-              {[media.video1, media.video2, media.video3].map((source, index) => <article className="ugc-card" key={source}><div className="ugc-index">UGC 0{index + 1}</div><video src={source} className="ugc-video" controls muted loop autoPlay playsInline preload="metadata" onPlay={() => trackEvent("view_video", { video: index + 1 })}><track kind="captions" /></video><span className="ugc-glow" /></article>)}
+              {[media.video1, media.video2, media.video3].map((source, index) => <article className="ugc-card" key={source}><video src={source} className="ugc-video" controls muted loop autoPlay playsInline preload="metadata" onPlay={() => trackEvent("view_video", { video: index + 1 })}><track kind="captions" /></video><span className="ugc-glow" /></article>)}
             </div>
             <p className="ugc-caption">Uma solução prática para acompanhar diferentes momentos da rotina.</p>
             <div className="section-cta-wrap"><PurchaseCTA label="QUERO MEU KIT" location="after_videos" /></div>
@@ -319,8 +320,8 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="receive-section section-pad">
-          <div className="container receive-layout"><div className="receive-visual"><div className="brace brace-back" /><div className="brace brace-front" /><div className="pair-label"><b>02</b><span>UNIDADES<br />NO KIT</span></div></div><div className="section-copy"><SectionEyebrow>O QUE VOCÊ RECEBE</SectionEyebrow><h2>UM PAR COMPLETO <em>PARA VOCÊ.</em></h2><p>Você recebe 2 joelheiras de compressão para utilizar nos dois joelhos.</p><ul className="receive-list">{["2 Joelheiras", "Alta elasticidade", "Compressão", "Tamanho único", "Verde com preto", "Uso esportivo", "Uso no dia a dia"].map((item) => <li key={item}><Check size={17} />{item}</li>)}</ul></div></div>
+        <section id="recebe" className="receive-section section-pad">
+          <div className="container receive-layout"><div className="receive-visual receive-visual--kit"><img src={media.kitPair} alt="Par de joelheiras de compressão verde e preto" loading="lazy" /><div className="pair-label"><b>02</b><span>UNIDADES<br />NO KIT</span></div></div><div className="section-copy"><SectionEyebrow>O QUE VOCÊ RECEBE</SectionEyebrow><h2>UM PAR COMPLETO <em>PARA VOCÊ.</em></h2><p>Você recebe 2 joelheiras de compressão para utilizar nos dois joelhos.</p><ul className="receive-list">{["2 Joelheiras", "Alta elasticidade", "Compressão", "Tamanho único", "Verde com preto", "Uso esportivo", "Uso no dia a dia"].map((item) => <li key={item}><Check size={17} />{item}</li>)}</ul></div></div>
         </section>
 
         <section className="value-section"><div className="container value-layout"><div><SectionEyebrow>UM KIT, DOIS LADOS</SectionEyebrow><h2>MAIS SUPORTE.<br />MAIS PRATICIDADE.<br /><em>UM KIT COMPLETO.</em></h2></div><div className="value-answer"><b>2</b><div><span>JOELHEIRAS</span><p>Um único kit para utilizar nos dois joelhos.</p></div></div></div></section>
