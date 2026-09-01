@@ -2,7 +2,7 @@
 - [x] Substituir o visual da seção “O que você recebe” pela nova foto do par de joelheiras enviada.
 - [x] Substituir a imagem do “Guia de tamanho” pela foto nomeada Guia de tamanho.
 - [x] Substituir a imagem da seção “O que você recebe” pela nova foto do kit e adicionar um CTA de compra abaixo dela.
-- [ ] Avaliar migração das imagens para `client/public/assets`, respeitando o limite de mídias do template.
+- [x] Avaliar migração das imagens para `client/public/assets`, respeitando o limite de mídias do template. Conclusão: não migrar as imagens pesadas; manter os assets no armazenamento publicado para preservar o deploy.
 - [x] Fornecer os três links diretos dos vídeos para hospedagem externa e aguardar as novas URLs.
 - [x] Atualizar somente os três `src` de vídeo para as URLs públicas fornecidas, mantendo a ordem na landing page.
 - [x] Validar a alteração e sincronizar a versão atualizada com o GitHub.
