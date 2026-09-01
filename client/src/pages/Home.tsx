@@ -29,9 +29,9 @@ const CHECKOUT_URL = "https://pay.kaiross.com.br/fVx61rsyRSyj";
 const GREEN = "#67E636";
 
 const media = {
-  video1: "/manus-storage/VIDEOUGC1_a46f06a3.MP4",
-  video2: "/manus-storage/VIDEOUGC2_ea2e3a10.mp4",
-  video3: "/manus-storage/VIDEOUGC3USANDOREAL_e097c66d.MP4",
+  video1: "https://n0mcghihytcwg4vv.public.blob.vercel-storage.com/VIDEOUGC1_a46f06a3.mp4",
+  video2: "https://n0mcghihytcwg4vv.public.blob.vercel-storage.com/VIDEOUGC2_ea2e3a10.mp4",
+  video3: "https://n0mcghihytcwg4vv.public.blob.vercel-storage.com/VIDEOUGC3USANDOREAL_e097c66d.mp4",
   social1: "/manus-storage/provasocial1_bff3f59a.jpeg",
   social2: "/manus-storage/provasocial2_620a163b.jpeg",
   social3: "/manus-storage/provasocial3_2dd6620b.jpg",
