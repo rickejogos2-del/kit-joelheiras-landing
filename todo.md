@@ -8,4 +8,14 @@
 - [x] Validar a alteração e sincronizar a versão atualizada com o GitHub.
 - [x] Auditar e avaliar a migração de todas as imagens de `/manus-storage/...` para `client/public/assets` sem alterar o restante da landing page. Conclusão: o template proíbe mídias pesadas em `client/public`; manter as imagens em `/manus-storage/` é necessário para preservar o deploy.
 - [x] Atualizar todas as referências de imagem de `/manus-storage/...` para as URLs públicas fornecidas, incluindo favicon e `og:image`, sem alterar o restante da página.
-- [ ] Validar as referências e sincronizar a alteração com o GitHub.
+- [x] Validar as referências e sincronizar a alteração com o GitHub.
+- [x] Ajustar o hero mobile para empilhar texto, CTA e imagem sem sobreposição.
+- [x] Restringir o carrossel de vídeos ao arraste horizontal no mobile, preservando a rolagem vertical fora dele.
+- [x] Reposicionar o CTA da seção “O que você recebe” no mobile sem cobrir texto ou elementos da imagem.
+- [x] Validar em mobile que o hero ficou empilhado com texto, CTA e imagem sem sobreposição.
+- [x] Validar em mobile o carrossel de vídeos com arraste apenas horizontal e rolagem vertical normal fora dele.
+- [x] Validar visualmente em mobile a seção “O que você recebe” e confirmar que o CTA não cobre a imagem.
+- [x] Executar `pnpm check` e `pnpm build` após as correções mobile.
+- [x] Validar visualmente em mobile, com evidência verificável no contexto, que o hero ficou em fluxo vertical sem sobreposição entre texto, CTA e imagem.
+- [x] Testar/interagir no mobile com o carrossel de vídeos e registrar evidência verificável de arraste apenas horizontal e rolagem vertical normal fora dele.
+- [x] Validar visualmente em mobile, com evidência verificável no contexto, que o CTA da seção “O que você recebe” não cobre texto nem elementos da imagem.
