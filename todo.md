@@ -6,3 +6,6 @@
 - [x] Fornecer os três links diretos dos vídeos para hospedagem externa e aguardar as novas URLs.
 - [x] Atualizar somente os três `src` de vídeo para as URLs públicas fornecidas, mantendo a ordem na landing page.
 - [x] Validar a alteração e sincronizar a versão atualizada com o GitHub.
+- [x] Auditar e avaliar a migração de todas as imagens de `/manus-storage/...` para `client/public/assets` sem alterar o restante da landing page. Conclusão: o template proíbe mídias pesadas em `client/public`; manter as imagens em `/manus-storage/` é necessário para preservar o deploy.
+- [x] Atualizar todas as referências de imagem de `/manus-storage/...` para as URLs públicas fornecidas, incluindo favicon e `og:image`, sem alterar o restante da página.
+- [ ] Validar as referências e sincronizar a alteração com o GitHub.
