@@ -19,3 +19,9 @@
 - [x] Validar visualmente em mobile, com evidência verificável no contexto, que o hero ficou em fluxo vertical sem sobreposição entre texto, CTA e imagem.
 - [x] Testar/interagir no mobile com o carrossel de vídeos e registrar evidência verificável de arraste apenas horizontal e rolagem vertical normal fora dele.
 - [x] Validar visualmente em mobile, com evidência verificável no contexto, que o CTA da seção “O que você recebe” não cobre texto nem elementos da imagem.
+- [x] Criar a página `/politica-de-privacidade` com coleta, uso, cookies/pixels, não venda de dados e exclusão por e-mail.
+- [x] Criar a página `/termos-de-uso` com compra, entrega, trocas/devoluções, pagamentos e suporte.
+- [x] Adicionar links para as duas páginas legais no rodapé da home sem alterar o restante da landing page.
+- [x] Validar rotas, conteúdo, responsividade e build das páginas legais.
+- [x] Atualizar os Termos de Uso para informar explicitamente cartão de crédito e Pix como formas de pagamento, conforme disponibilidade exibida no checkout.
+- [x] Validar as rotas legais no navegador, responsividade e build antes do checkpoint final.
