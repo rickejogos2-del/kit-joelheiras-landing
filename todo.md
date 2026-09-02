@@ -25,3 +25,6 @@
 - [x] Validar rotas, conteúdo, responsividade e build das páginas legais.
 - [x] Atualizar os Termos de Uso para informar explicitamente cartão de crédito e Pix como formas de pagamento, conforme disponibilidade exibida no checkout.
 - [x] Validar as rotas legais no navegador, responsividade e build antes do checkpoint final.
+- [x] Verificar se já existe Meta Pixel no projeto e instalar/substituir o código oficial no `<head>`.
+- [x] Disparar `InitiateCheckout` nos cliques dos CTAs “QUERO MEU KIT AGORA” e “COMPRAR AGORA”.
+- [x] Validar o Pixel, o evento, a compilação e preservar o restante do site.
