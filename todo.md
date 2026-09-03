@@ -28,3 +28,6 @@
 - [x] Verificar se já existe Meta Pixel no projeto e instalar/substituir o código oficial no `<head>`.
 - [x] Disparar `InitiateCheckout` nos cliques dos CTAs “QUERO MEU KIT AGORA” e “COMPRAR AGORA”.
 - [x] Validar o Pixel, o evento, a compilação e preservar o restante do site.
+- [x] Adicionar “Frete grátis para todo o Brasil” no hero, próximo ao CTA principal.
+- [x] Adicionar “Frete grátis para todo o Brasil” na barra fixa de compra, próximo ao preço, sem repetir em outras seções.
+- [x] Validar visualmente em desktop e mobile a posição dos dois avisos de frete e confirmar que não aparecem em outras seções.

@@ -211,6 +211,7 @@ export default function Home() {
                 <strong>POR <b>R$ 109,90</b></strong>
               </div>
               <PurchaseCTA label="QUERO MEU KIT AGORA" location="hero" />
+              <p className="hero-shipping-note">Frete grátis para todo o Brasil</p>
               <ul className="micro-checks" aria-label="Informações do produto">
                 <li><Check size={15} />2 unidades</li><li><Check size={15} />Alta elasticidade</li>
                 <li><Check size={15} />Tamanho único</li><li><Check size={15} />Uso esportivo e cotidiano</li>
@@ -356,7 +357,7 @@ export default function Home() {
 
       <footer className="site-footer"><div className="container footer-row"><a href="#inicio" className="brand"><img src={media.mark} alt="" className="brand-mark" /><span>KIT 02<br />JOELHEIRAS</span></a><p>Compra finalizada com segurança através do checkout.</p><div className="footer-links"><a href="/politica-de-privacidade">Política de privacidade</a><a href="/termos-de-uso">Termos de uso</a><a href={CHECKOUT_URL} target="_blank" rel="noreferrer" onClick={() => trackEvent("click_checkout", { location: "footer" })}>IR PARA O CHECKOUT <ArrowUpRight size={15} /></a></div></div></footer>
 
-      <a href={CHECKOUT_URL} target="_blank" rel="noreferrer" onClick={() => { trackEvent("click_cta", { location: "fixed_mobile" }); trackInitiateCheckout(); }} className="mobile-buybar"><span><small>KIT 2 JOELHEIRAS</small><b>R$ 109,90</b></span><strong>COMPRAR AGORA <ArrowUpRight size={15} /></strong></a>
+      <a href={CHECKOUT_URL} target="_blank" rel="noreferrer" onClick={() => { trackEvent("click_cta", { location: "fixed_mobile" }); trackInitiateCheckout(); }} className="mobile-buybar"><span><small>KIT 2 JOELHEIRAS</small><b>R$ 109,90</b><small className="mobile-shipping-note">Frete grátis para todo o Brasil</small></span><strong>COMPRAR AGORA <ArrowUpRight size={15} /></strong></a>
 
       <AnimatePresence>{lightbox !== null && <motion.div className="lightbox" role="dialog" aria-modal="true" aria-label="Avaliação ampliada" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} onClick={() => setLightbox(null)}><button className="lightbox-close" aria-label="Fechar imagem" onClick={() => setLightbox(null)}><X /></button><motion.img src={socialEvidence[lightbox].src} alt={socialEvidence[lightbox].alt} initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0.96 }} onClick={(event) => event.stopPropagation()} /></motion.div>}</AnimatePresence>
     </div>

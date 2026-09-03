@@ -298,3 +298,7 @@ h1 em,h2 em { color: #67E636; font-style: italic; }
   .legal-contact { margin-top: 20px; padding: 15px; }
   .legal-footer { align-items: flex-start; flex-direction: column; gap: 16px; }
 }
+
+.hero-shipping-note { display: flex; align-items: center; gap: 7px; margin: 10px 0 0; color: #b9c5bb; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.hero-shipping-note::before { width: 6px; height: 6px; flex: 0 0 6px; border-radius: 50%; background: #67E636; content: ''; box-shadow: 0 0 10px rgba(103,230,54,.7); }
+.mobile-shipping-note { margin-top: 2px; color: #74f052 !important; font-size: 8px !important; letter-spacing: .04em !important; line-height: 1.1; }
