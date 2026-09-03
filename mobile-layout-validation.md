@@ -17,3 +17,11 @@ As rotas `/politica-de-privacidade` e `/termos-de-uso` foram capturadas em tela 
 ## Validação legal mobile
 
 As rotas `/politica-de-privacidade` e `/termos-de-uso` foram capturadas em 390x844 com página completa. O conteúdo permanece legível, os títulos não cortam, o e-mail é acessível e os links cruzados ficam visíveis no rodapé de cada página.
+
+## Validação dos avisos de frete no header e na oferta
+
+Em desktop, o header exibe o aviso sob o CTA “COMPRAR AGORA”, mantendo a oferta do hero e o restante da composição. Em mobile, o aviso do header fica oculto junto ao CTA desktop, enquanto o aviso da barra fixa permanece visível; a seção de oferta mantém seu aviso abaixo do CTA próprio. A implementação contém exatamente quatro ocorrências do texto: header, hero, oferta do kit e barra fixa.
+
+## Validação final dos quatro avisos de frete
+
+As capturas mobile e desktop confirmaram o aviso no header, no hero, na seção de oferta e na barra fixa. No mobile, o aviso do header permanece visível sem exibir o CTA desktop; os demais pontos seguem preservados. O texto aparece exatamente quatro vezes no código, sem repetição adicional.

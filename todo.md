@@ -31,3 +31,8 @@
 - [x] Adicionar “Frete grátis para todo o Brasil” no hero, próximo ao CTA principal.
 - [x] Adicionar “Frete grátis para todo o Brasil” na barra fixa de compra, próximo ao preço, sem repetir em outras seções.
 - [x] Validar visualmente em desktop e mobile a posição dos dois avisos de frete e confirmar que não aparecem em outras seções.
+- [x] Adicionar “Frete grátis para todo o Brasil” na seção de oferta do kit.
+- [x] Adicionar “Frete grátis para todo o Brasil” no header, sem criar ocorrências em outros pontos.
+- [x] Validar que o aviso aparece exatamente nos quatro pontos definidos, executar check/build e conferir desktop/mobile.
+- [x] Tornar visível no mobile o aviso “Frete grátis para todo o Brasil” no header, sem criar ocorrências extras.
+- [x] Revalidar visualmente desktop e mobile os quatro pontos: header, hero, oferta do kit e barra fixa.
